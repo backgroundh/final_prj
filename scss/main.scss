@@ -20,20 +20,71 @@ img {
 }
 $HeaderWidht: 8%;
 
+.menu {
+    width: 100%;
+    padding-top: 20px;
+    //margin-left: 10%;
+    //font-weight: 500;
+
+    & li {
+        font-weight: 600;
+        // padding: 3% 0;
+        & ul {
+            padding: 5%;
+            & li {
+                font-size: 0.9rem;
+                padding: 1% 4%;
+                font-weight: 300;
+            }
+        }
+    }
+}
+
+.fab {
+    font-size: 1.5rem;
+    & p{
+        display: inline-block;
+        vertical-align: middle;
+        font-size: 1rem;
+        padding-left: 0.5rem;
+        font-family: "noto serif kr";
+        font-weight: 500;
+    }
+    
+}
+
+
 body {
     font-family: "noto serif kr";
     position: relative;
     //flex-grow: 1;
     height: 970px * 3;
+    width:100%;
+
+    & #pop{
+        position: fixed;
+        top:-45px;
+        //top:0x;
+        right: 0;
+        z-index: 100;
+        
+        width:100%;
+        height: 50px;
+        background-color: red;
+    }
     header {
         background-color: #cccccc;
+       
 
         width: $HeaderWidht - 2%;
         height: 100%;
         position: fixed;
         left: 0;
         top: 0;
-        padding: 1%;
+        z-index: 50;
+        padding: 4.375rem 1% 1% 1% ;
+
+       
 
         & #logo {
             //height: 30px;
@@ -68,25 +119,25 @@ body {
                 opacity: 1;
             }
         }
-        & nav {
-            width: 100%;
-            padding-top: 20px;
-            //margin-left: 10%;
-            //font-weight: 500;
+        // & .menu {
+        //     width: 100%;
+        //     padding-top: 20px;
+        //     //margin-left: 10%;
+        //     //font-weight: 500;
 
-            & li {
-                font-weight: 600;
-                // padding: 3% 0;
-                & ul {
-                    padding: 5%;
-                    & li {
-                        font-size: 0.9rem;
-                        padding: 1% 4%;
-                        font-weight: 500;
-                    }
-                }
-            }
-        }
+        //     & li {
+        //         font-weight: 600;
+        //         // padding: 3% 0;
+        //         & ul {
+        //             padding: 5%;
+        //             & li {
+        //                 font-size: 0.9rem;
+        //                 padding: 1% 4%;
+        //                 font-weight: 300;
+        //             }
+        //         }
+        //     }
+        // }
     }
 
     section {
@@ -105,12 +156,29 @@ body {
     }
 
     footer {
-        background-color: #666666;
+        background-color: #999999;
 
-        width: $HeaderWidht;
+        width: $HeaderWidht - 2%;
         height: 100%;
         position: fixed;
         right: 0;
         top: 0;
+        padding: 2rem 1% 1% 1% ;
+
+        & .meun_right{
+            text-align: left;
+
+            & li{
+                padding: 5% 0 ;
+            }
+
+        }
+
+        & .companyDetail{
+            position: fixed;
+            bottom: 5%;
+            font-weight: 100;
+            font-size: 0.5rem;
+        }
     }
 }
