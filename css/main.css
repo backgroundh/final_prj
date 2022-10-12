@@ -90,7 +90,7 @@ body header #logo img {
   width: 100%;
 }
 
-body header #serch textarea {
+body header #serch .search {
   /* Layout Properties */
   margin: 5% 0;
   width: 100%;
@@ -99,6 +99,7 @@ body header #serch textarea {
   background: #ffffff 0% 0% no-repeat padding-box;
   border-radius: 20px;
   opacity: 1;
+  border: none;
 }
 
 body section {
