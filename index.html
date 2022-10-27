@@ -1,105 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+ 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.9/fullpage.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.9/fullpage.min.css">
     <script src="js/main.js"></script>
-    <!--js-->
-    <link rel="stylesheet" href="css/main.css" />
-    <!--css-->
-    <script
-      src="https://kit.fontawesome.com/b67fc8b2a4.js"
-      crossorigin="anonymous"
-    ></script>
-    <!--FontAwesome-->
-    <style>
-      @import url("https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@100;300;400;500;700;900&display=swap");
-    </style>
-    <!--googleFont-->
+    <script>
+        $(document).ready(function() {
+            $('#fullpage').fullpage({
+                //options here
+                autoScrolling:true,
+                scrollHorizontally: true
+            });
+         
+            //methods
+            $.fn.fullpage.setAllowScrolling(false);
+        });
+    </script>
 
-    <title>국제선물</title>
-  </head>
-  <body>
-    <div id="pop">
-      <a href="#"><img src="#"></a>
+
+    <title>Document</title>
+</head>
+<body>
+    <div id="fullpage">
+        <div class="section">Some section</div>
+        <div class="section">Some section</div>
+        <div class="section">Some section</div>
+        <div class="section">Some section</div>
     </div>
-    <header>
-         
-      <div id="logo">
-        <a href="#"> <img src="images/banner1.jpg" /> </a>
-      </div>
-      <div id="serch">
-        <!-- <i class="fa-solid fa-magnifying-glass"></i> -->
-        <input type="search" class="search">
-      </div>
-      <nav class="menu">
-        <ul>
-          <!--카테고리1번-->
-          <li>
-            <a href="#">자개</a>
-            <ul>
-              <li><a href="#">거울세트</a></li>
-              <li><a href="#">수저세트</a></li>
-            </ul>
-          </li>
-          <!--카테고리1번 끝.-->
-          <!--카테고리1번-->
-          <li>
-            <a href="#">자개</a>
-            <ul>
-              <li><a href="#">거울세트</a></li>
-              <li><a href="#">수저세트</a></li>
-            </ul>
-          </li>
-          <!--카테고리1번 끝.-->
-        </ul>
-      </nav>
-    </header>
-    <section class="section1">
-      <a href="#"><img src="images/banner1.jpg" /></a>
-    </section>
-    <section class="section2"><img src="images/banner02.png" /></section>
-    <section class="section3">메인배너</section>
-    <footer>
-      <nav class="menu meun_right">
-        <ul>
-          <li><!--카테고리1번-->
-            <a href="#">로그인</a>
-            <!-- <ul>
-              <li><a href="#">거울세트</a></li>
-              <li><a href="#">수저세트</a></li>
-            </ul> -->
-          </li><!--카테고리1번 끝.-->
-         
-          <li> <!--카테고리2번-->
-            <a href="#">회원가입</a>
-          </li><!--카테고리2번 끝.-->
-          <li> <!--카테고리2번-->
-            <a href="#">장바구니</a>
-          </li><!--카테고리2번 끝.-->
-          <li> <!--카테고리2번-->
-            <a href="#">고객센터</a>
-          </li><!--카테고리2번 끝.-->
-        </ul>
-      </nav>
-      <nav class="menu meun_right">
-        <ul>
-          <li> <!--카테고리2번-->
-            <a class="fab fa-instagram-square" href="#" ><p>인스타그램</p></a>
-          </li><!--카테고리2번 끝.-->
-          <li> <!--카테고리2번-->
-            <a class="fab fa-blogger" href="#"><p>블로그</p></a>
-          </li><!--카테고리2번 끝.-->
-          <li> <!--카테고리2번-->
-            <a class="fab fa-kaggle" href="#"><p>카카오톡</p></a>
-          </li><!--카테고리2번 끝.-->
-        </ul>
-      </nav>
-      <div class="companyDetail">
-        <p>계좌번호 : </p>
 
-      </div>
-    </footer>
-  </body>
+</body>
 </html>
