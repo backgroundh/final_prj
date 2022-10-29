@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/fullpage.min.css" />
     <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/style.css" />
     <script src="js/fullpage.min.js"></script>
     <script
       src="https://code.jquery.com/jquery-3.6.1.min.js"
@@ -13,9 +14,28 @@
       crossorigin="anonymous"
     ></script>
 
-    <title>Document</title>
+    <title>국제선물</title>
   </head>
   <body>
+    <div id="logo">
+      <a href="#"><img src="#" /></a>
+    </div>
+    <nav id="nav">
+      <ul>
+        <li>
+          <a href="#">menu1</a>
+        </li>
+        <li>
+          <a href="#">menu1</a>
+        </li>
+        <li>
+          <a href="#">menu1</a>
+        </li>
+        <li>
+          <a href="#">menu1</a>
+        </li>
+      </ul>
+    </nav>
     <div id="full_page">
       <div class="section s0">
         <h2>section0</h2>
@@ -38,7 +58,7 @@
         sectionsColor: ["#ff0000", "#00ff00", "#0000ff", "#aaaaaa"],
         navigation: true,
         navigationTooltips: ["home", "about", "contact", "etc"],
-        scrollingSpeed: 2000,
+        scrollingSpeed: 1500,
         onLeave: function (origin, destination, direction) {
           if (origin.index == 1) {
             $(".s1 h3").hide();

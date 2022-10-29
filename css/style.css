@@ -1,0 +1,10 @@
+#logo {
+  position: fixed;
+  left: 50%;
+  top: 20px;
+}
+
+nav ul {
+  list-style: none;
+  display: inline-block;
+}
