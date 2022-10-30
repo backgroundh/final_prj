@@ -1,4 +1,4 @@
-alert("테스트");
+// alert("테스트");
 $(function(){
     $('#pop_bnt>a>img').click(
         function(){

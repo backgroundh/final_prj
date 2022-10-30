@@ -19,6 +19,16 @@ body {
   position: relative;
 }
 
+#fixed {
+  background-color: #fff;
+  width: 100%;
+  height: 100px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 99;
+}
+
 #random_bnt {
   z-index: 100;
   position: fixed;
@@ -67,9 +77,6 @@ nav ul li #subNav {
   position: fixed;
   bottom: 20px;
   right: 4%;
-  padding: 3% 2%;
-  border-radius: 40%;
-  background-color: #999999;
 }
 
 #pop_bnt .on {
