@@ -1,10 +1,15 @@
-//alert("테스트");
+alert("테스트");
 $(function(){
-    $('#logo').click(
+    $('#pop_bnt>a>img').click(
         function(){
-            $('#logo').hide();
+            $('.on').hide();
         }
-    );
+    );  
+    // $('#logo').click(
+    //     function(){
+    //         $('#logo').hide();
+    //     }
+    // );
     // $("#pop_bnt > a").click(
     //     function(){
     //         $('.on').hide()

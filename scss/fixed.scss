@@ -65,7 +65,15 @@ nav {
     position: fixed;
     bottom: 20px;
     right: 4%;
+
+    padding:3% 2%;
+    border-radius:40%;
+    background-color: #999999;
+
     .on {
+        display: block;
+    }
+    a{
         display: block;
     }
 }
