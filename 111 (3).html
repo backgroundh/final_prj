@@ -23,81 +23,43 @@
     <link rel="stylesheet" type="text/css" href="css/component.css" />
     <script src="js/modernizr.custom.js"></script>
 
-    <title>국제선물 🎁</title>
-    <style>
-      @import url("https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@200;300;400;500;600;700;900&display=swap");
-    </style>
-
-    <link rel="stylesheet" href="./full_page_js/fullpage.min.css" />
-    <link rel="stylesheet" href="./css/index.css" />
-    <link rel="stylesheet" href="./css/common.css" />
-    <link rel="stylesheet" href="./css/random.css" />
-
-    <script
-      src="https://code.jquery.com/jquery-3.6.1.min.js"
-      integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
-      crossorigin="anonymous"
-    ></script>
-    <script src="./full_page_js/fullpage.min.js"></script>
-    <script src="./js/main.js"></script>
+    <title>국제선물</title>
   </head>
   <body>
- 
-    <header>
-      <div class="inner">
-        <div class="header random_bnt">
-          <a href="random.html">
-            <img src="../images/random_bnt.png" alt="선물추천" />
-          </a>
-        </div>
-        <div class="header logo">
-          <a href="index.html">
-            <img src="../images/logo.png" />
-          </a>
-        </div>
-        <nav class="header nav">
-          <ul id="menuBig">
-            <li>
-              <a href="#">주방</a>
-            </li>
-            <li><a href="#">누빔</a></li>
-            <li><a href="#">문구</a></li>
-            <li><a href="#">자개</a></li>
-            <li><a href="#">소품</a></li>
-          </ul>
-        </nav>
+    <div id="fixed">
+      <div id="random_bnt">
+        <a href="list.html">
+          <img src="image/random_bnt.png" />
+        </a>
       </div>
-      <div id="menuMid">
-        <div class="inner">
-          <h1>주방 ></h1>
-          <div class="menuSmBox">
-            <div class="menuSm">
-              <h3 class="menuSm_sub">수저</h3>
-              <ul class="menuSm_sub">
-                <li><a href="#">숟가락</a></li>
-                <li><a href="#">젓가락</a></li>
-                <li><a href="#">포크</a></li>
-              </ul>
-            </div>
-            <div class="menuSm">
-              <h3 class="menuSm_sub">수저</h3>
-              <ul class="menuSm_sub">
-                <li><a href="#">숟가락</a></li>
-                <li><a href="#">젓가락</a></li>
-                <li><a href="#">포크</a></li>
-              </ul>
-            </div>
-
-        </div>
+      <div id="logo">
+        <a href="index.html"><img src="image/logo.png" /></a>
       </div>
-    </header>
-
-
-    <div id="login">
-      <a href="#">
-        <img src="./images/login.png" />
-      </a>
-      <div id="login_click">
+      <nav id="nav">
+        <ul>
+          <li>
+            <a href="#">menu1</a>
+            <ul id="subNav">
+              <li><a href="#">sub menu</a></li>
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
+              <li><a href="#"></a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">menu1</a>
+          </li>
+          <li>
+            <a href="#">menu1</a>
+          </li>
+          <li>
+            <a href="#">menu1</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div id="pop_bnt">
+      <div class="on">
         <ul>
           <li><a href="#">로그인</a></li>
           <li><a href="#">회원가입</a></li>
@@ -105,9 +67,11 @@
           <li><a href="#">고객센터</a></li>
         </ul>
       </div>
+      <a href="#">
+        <img src="image/profill.png" />
+      </a>
     </div>
 
-    <!---->
     <div class="container">
       <!-- Top Navigation -->
       <!-- <div class="codrops-top clearfix">
@@ -139,16 +103,16 @@
         </nav>
       </header> -->
       <section class="grid-wrap">
-        <ul class="grid swipe-down" id="grid" style="text-align:center">
+        <ul class="grid swipe-down" id="grid">
           <li class="title-box">
             <!-- <h2>
               Illustrations by
               <a href="http://ryotakemasa.com/">Ryo Takemasa</a>
             </h2> -->
           </li>
-          <li >
-            <a href="detail.html">
-              <img src="./images/pro01 (1).png" alt="dummy" />
+          <li>
+            <a href="#">
+              <img src="image/dummy.png" alt="dummy" />
               <!-- <h3>A fantastic title</h3> -->
               <!-- <div id="productDetail">
                 <h4>상품명</h4>
@@ -157,120 +121,164 @@
             </a>
           </li>
           <li>
-            <a href="detail.html">
-              <img src="./images/pro01 (3).png" alt="dummy" />
-              <!-- <h3>A fantastic title</h3> -->
-            </a>
-          </li>
-          <li>
-            <a href="detail.html">
-              <img src="./images/pro01 (2).png" alt="dummy" />
-              <!-- <h3>A fantastic title</h3> -->
-            </a>
-          </li>
-          <li>
-            <a href="detail.html">
-              <img src="./images/pro01 (4).png" alt="dummy" />
-              <!-- <h3>A fantastic title</h3> -->
-            </a>
-          </li>
-          <li>
-            <a href="detail.html">
-              <img src="./images/pro01 (5).png" alt="dummy" />
-              <!-- <h3>A fantastic title</h3> -->
-            </a>
-          </li>
-          <li>
-            <a href="detail.html">
-              <img src="./images/pro01 (6).png" alt="dummy" />
-              <!-- <h3>A fantastic title</h3> -->
-            </a>
-          </li>
-          <li>
-            <a href="detail.html">
-              <img src="./images/pro01 (7).png" alt="dummy" />
-              <!-- <h3>A fantastic title</h3> -->
-            </a>
-          </li>
-          <li>
-            <a href="detail.html">
-              <img src="./images/pro01 (8).png" alt="dummy" />
-              <!-- <h3>A fantastic title</h3> -->
-            </a>
-          </li>
-          <li>
-            <a href="detail.html">
-              <img src="./images/pro01 (9).png" alt="dummy" />
-              <!-- <h3>A fantastic title</h3> -->
-            </a>
-          </li>
-          <li>
-            <a href="detail.html">
-              <img src="./images/pro01 (10).png" alt="dummy" />
-              <!-- <h3>A fantastic title</h3> -->
-            </a>
-          </li>
-          <li>
-            <a href="detail.html">
+            <a href="#">
               <img src="./images/pro01 (1).png" alt="dummy" />
               <!-- <h3>A fantastic title</h3> -->
-              <!-- <div id="productDetail">
-                <h4>상품명</h4>
-                <p>상품설명 가격</p>
-              </div> -->
             </a>
           </li>
           <li>
-            <a href="detail.html">
+            <a href="#">
               <img src="./images/pro01 (3).png" alt="dummy" />
               <!-- <h3>A fantastic title</h3> -->
             </a>
           </li>
           <li>
-            <a href="detail.html">
-              <img src="./images/pro01 (2).png" alt="dummy" />
-              <!-- <h3>A fantastic title</h3> -->
-            </a>
-          </li>
-          <li>
-            <a href="detail.html">
+            <a href="#">
               <img src="./images/pro01 (4).png" alt="dummy" />
               <!-- <h3>A fantastic title</h3> -->
             </a>
           </li>
           <li>
-            <a href="detail.html">
-              <img src="./images/pro01 (5).png" alt="dummy" />
+            <a href="#">
+              <img src="image/dummy.png" alt="dummy" />
               <!-- <h3>A fantastic title</h3> -->
             </a>
           </li>
           <li>
-            <a href="detail.html">
-              <img src="./images/pro01 (6).png" alt="dummy" />
+            <a href="#">
+              <img src="image/dummy.png" alt="dummy" />
               <!-- <h3>A fantastic title</h3> -->
             </a>
           </li>
           <li>
-            <a href="detail.html">
-              <img src="./images/pro01 (7).png" alt="dummy" />
+            <a href="#">
+              <img src="image/dummy.png" alt="dummy" />
               <!-- <h3>A fantastic title</h3> -->
             </a>
           </li>
           <li>
-            <a href="detail.html">
-              <img src="./images/pro01 (8).png" alt="dummy" />
+            <a href="#">
+              <img src="image/dummy.png" alt="dummy" />
               <!-- <h3>A fantastic title</h3> -->
             </a>
           </li>
           <li>
-            <a href="detail.html">
-              <img src="./images/pro01 (9).png" alt="dummy" />
+            <a href="#">
+              <img src="image/dummy.png" alt="dummy" />
               <!-- <h3>A fantastic title</h3> -->
             </a>
           </li>
           <li>
-            <a href="detail.html">
-              <img src="./images/pro01 (10).png" alt="dummy" />
+            <a href="#">
+              <img src="image/dummy.png" alt="dummy" />
+              <!-- <h3>A fantastic title</h3> -->
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="image/dummy.png" alt="dummy" />
+              <!-- <h3>A fantastic title</h3> -->
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="image/dummy.png" alt="dummy" />
+              <!-- <h3>A fantastic title</h3> -->
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="image/dummy.png" alt="dummy" />
+              <!-- <h3>A fantastic title</h3> -->
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="image/dummy.png" alt="dummy" />
+              <!-- <h3>A fantastic title</h3> -->
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="image/dummy.png" alt="dummy" />
+              <!-- <h3>A fantastic title</h3> -->
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="image/dummy.png" alt="dummy" />
+              <!-- <h3>A fantastic title</h3> -->
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="image/dummy.png" alt="dummy" />
+              <!-- <h3>A fantastic title</h3> -->
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="image/dummy.png" alt="dummy" />
+              <!-- <h3>A fantastic title</h3> -->
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="image/dummy.png" alt="dummy" />
+              <!-- <h3>A fantastic title</h3> -->
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="image/dummy.png" alt="dummy" />
+              <!-- <h3>A fantastic title</h3> -->
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="image/dummy.png" alt="dummy" />
+              <!-- <h3>A fantastic title</h3> -->
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="image/dummy.png" alt="dummy" />
+              <!-- <h3>A fantastic title</h3> -->
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="image/dummy.png" alt="dummy" />
+              <!-- <h3>A fantastic title</h3> -->
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="image/dummy.png" alt="dummy" />
+              <!-- <h3>A fantastic title</h3> -->
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="image/dummy.png" alt="dummy" />
+              <!-- <h3>A fantastic title</h3> -->
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="image/dummy.png" alt="dummy" />
+              <!-- <h3>A fantastic title</h3> -->
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="image/dummy.png" alt="dummy" />
+              <!-- <h3>A fantastic title</h3> -->
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="image/dummy.png" alt="dummy" />
               <!-- <h3>A fantastic title</h3> -->
             </a>
           </li>
